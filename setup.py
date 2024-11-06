@@ -19,6 +19,7 @@ setup(
         'singer-python==6.0.0',
         'stringcase==1.2.0',
         'backoff==2.2.1',
+        'setuptools==70.3.0',
     ],
     extras_require={
         'test': [
