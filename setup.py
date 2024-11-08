@@ -19,6 +19,9 @@ setup(
         'singer-python==6.0.0',
         'stringcase==1.2.0',
         'backoff==2.2.1',
+        # Use by the bingads package
+        # https://github.com/BingAds/BingAds-Python-SDK/blob/d5dde3524a049984e7e9673030fdd684e87e7b4c/bingads/service_info.py#L1
+        'setuptools==70.3.0',
     ],
     extras_require={
         'test': [
