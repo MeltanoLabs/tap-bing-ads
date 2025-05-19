@@ -21,7 +21,7 @@ setup(
         'backoff==2.2.1',
         # Use by the bingads package
         # https://github.com/BingAds/BingAds-Python-SDK/blob/d5dde3524a049984e7e9673030fdd684e87e7b4c/bingads/service_info.py#L1
-        'setuptools==70.3.0',
+        'setuptools==78.1.1',
     ],
     extras_require={
         'test': [
